@@ -75,8 +75,7 @@ document.querySelector("#book-form").addEventListener("submit", function(e) {
 
   //   add book to list
   ui.addBookToList(book)
-  //   add to local storage
-  Store.addBook(book)
+ 
   // show success alert
   ui.showAlert("Book Added successfull", "success")
   //   clear fields
